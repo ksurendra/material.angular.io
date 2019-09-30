@@ -1,6 +1,6 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
-import {VERSION} from '@angular/material';
+import {VERSION} from '@angular/material/core';
 import {ExampleData} from '@angular/material-examples';
 
 import {materialVersion} from '../version/version';
@@ -8,7 +8,7 @@ import {materialVersion} from '../version/version';
 const STACKBLITZ_URL = 'https://run.stackblitz.com/api/angular/v1';
 
 const COPYRIGHT =
-  `Copyright 2018 Google Inc. All Rights Reserved.
+  `Copyright 2019 Google Inc. All Rights Reserved.
     Use of this source code is governed by an MIT-style license that
     can be found in the LICENSE file at http://angular.io/license`;
 
